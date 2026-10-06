@@ -4,6 +4,5 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-
-    echo ('Connection Success');
+    error_log ('Connection Success');
 ?>
