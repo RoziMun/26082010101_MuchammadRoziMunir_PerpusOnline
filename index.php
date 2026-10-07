@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistem Informasi Perpustakaan</title>
+    <title>Perpustakaan Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,7 +25,7 @@
 
     <?php
     require_once 'service/config.php';
-    
+
 
     $sqlBuku = "SELECT buku.*, penulis.namaPenulis, kategori.namaKategori FROM buku JOIN penulis ON buku.idPenulis = penulis.id JOIN kategori ON buku.idKategori = kategori.id";
     $sqlPenulis = "SELECT * FROM penulis";
