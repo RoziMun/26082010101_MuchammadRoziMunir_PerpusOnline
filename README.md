@@ -1,6 +1,6 @@
 # 📚 Web Sederhana Perpustakaan Online
 
-Project website perpustakaan sederhana yang dibangun menggunakan PHP dinamis dan basis data MySQL, dibuat untuk memenuhi tugas **ISCOM Day 3**.
+Project website perpustakaan sederhana yang dibangun menggunakan bahasa pemrograman PHP dan basis data MySQL.
 
 ---
 
